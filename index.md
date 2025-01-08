@@ -20,10 +20,16 @@ intensif.
 
 ## Accès aux environnements
 
-Pour accéder aux environnements, vous pouvez choisir un des liens
-ci-dessous, ou accéder à la [page d'accueil de
-myDocker](https://mydocker.universite-paris-saclay.fr/) pour retrouver
-les environnements que vous avez déjà utilisé.
+Les items ci-dessous vous donne accès à quelques environnements
+génériques. Si vous êtes enseignant.e, vous pouvez créer vos propres
+environnements (documentation à venir), voire proposer qu'ils soient
+ajoutés ici. De nombreux autres environnements ont été créés par des
+enseignant.es pour toutes sortes de besoin.
+
+Votre [page d'accueil de
+myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
+accès à tous les environnements que vous avez déjà utilisé.
+
 
 :::{admonition} [Clone de JupyterHub@Paris-Saclay](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
 :class: dropdown
@@ -44,27 +50,28 @@ des environnements plus spécialisés.**
 :::
 
 
-:::{admonition} [Jupyter Lab et Python](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
+:::{admonition} [JupyterLab et Python](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
 :class: dropdown
 
-- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas
-- Interface: Jupyter Lab
+- Interface: JupyterLab en Français
+- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Cours: [«Introduction à la programmation avec Python et Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/), ...
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/21/edit) (accès restreint)
 
-Cet environnement donne accès à Python et ses bibliothèques
-scientifiques de base (numpy, pandas, matplotlib), dans l'interface
-JupyterLab. Il est notamment utilisé pour un cours nommé
-[«Introduction à la programmation avec Python et
-Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/).
+Cet environnement est conçu pour des usages simple de Python,
+notamment pour de l'initiation à la programmation et au calcul.
 
 :::
 
-:::{admonition} [Jupyter Lab, Python et bibliothèques scientifiques](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
+
+:::{admonition} [JupyterLab, Python et bibliothèques scientifiques](https://mydocker.universite-paris-saclay.fr/shell/join/adNzzJUzLSjBjmwQohnD) (à venir)
 :class: dropdown
 
+- Interface: JupyterLab
 - Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, Scikit-learn, ...
-- Interface: Jupyter Lab
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/34/edit) (accès restreint)
 
 Cet environnement est basé sur l'image
 [jupyter-scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
@@ -72,11 +79,12 @@ de la communauté Jupyter.
 
 :::
 
-:::{admonition} Jupyter Lab et pyTorch
+
+:::{admonition} JupyterLab et pyTorch (à venir)
 :class: dropdown
 
-- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, Scikit-learn, ...
-- Interface: Jupyter Lab
+- Interface: JupyterLab
+- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, Scikit-learn, pyTorch, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 
 Cet environnement est basé sur l'image
@@ -85,21 +93,35 @@ de la communauté Jupyter.
 
 :::
 
-:::{admonition} Jupyter Lab et C++
+
+:::{admonition} JupyterLab et C++ (https://mydocker.universite-paris-saclay.fr/shell/join/pQlQsEaZSPJMBsBtbxOD)
 :class: dropdown
 
-- Interface: Jupyter Lab
-- Logiciels: compilateurs (gcc, clang) et interpréteur (cling) C++, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Interface: JupyterLab en Français
+- Logiciels: compilateurs (gcc, clang) et interpréteur (cling) C++, Travo, ...
+- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
+- Cours:
+  - «Introduction à la Programmation Impérative», L1 Math-Info, S2, Faculté des Sciences d'Orsay
+  - Programmation Modulaire, L1 Math-Info, S2, Faculté des Sciences d'Orsay
+  - «Algorithmes et Structures de Données», L1 Math-Info, S2, Faculté des Sciences d'Orsay
+  - «Info 1», Polytech
+  - ...
 
 :::
 
-:::{admonition} [Jupyter Lab et SageMath](https://mydocker.universite-paris-saclay.fr/shell/join/gkctIyHvdZkofetGeMju)
+
+:::{admonition} [JupyterLab et SageMath](https://mydocker.universite-paris-saclay.fr/shell/join/gkctIyHvdZkofetGeMju)
 :class: dropdown
 
-- Interface: Jupyter Lab
-- Logiciels: SageMath
+- Interface: JupyterLab en Français
+- Logiciels: SageMath, Travo
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/20/edit) (accès restreint)
+- Cours:
+  - «Option C: Algèbre et Calcul Formel», Agrégation de Mathématique, Faculté des Sciences d'Orsay
+  - «Combinatoire et Calcul algébrique», M1 MPRI, Faculté des Sciences d'Orsay
+  - «Projet Math-Info», LDD1 Math-Info, S2, Faculté des Sciences d'Orsay
+  - ...
 
 :::
 
@@ -108,7 +130,7 @@ de la communauté Jupyter.
 :::{admonition} Fonctionnalités essentielles
 :class: hint dropdown
 
-- Utilisation depuis un simple navigateur web.
+- **Ubiquité**: Utilisation depuis un simple navigateur web.
 - **Urbanisation**: authentification via la fédération d'identité
   «Recherche et Enseignement Supérieur» de Renater, ou bien par
   intégration comme outil externe dans Moodle (ou autre LMS compatible
@@ -122,53 +144,115 @@ de la communauté Jupyter.
   en IA, il est possible au cas par cas d'utiliser l'[instance
   myDocker de Centrale-Supélec](https://mydocker.centralesupelec.fr/),
   dont les serveurs sont loués à la demande. Nous contacter.
-- **Persistence des données**
+- **Persistence des données**.
 - **Hébergement souverain**.
+- **IA**: intégration d'un agent conversationnel souverain (Aristote).
 
 :::
 
-:::{admonition} Historique myDocker@Paris-Saclay et JupyterHub@Paris-Saclay
+:::{admonition} Historique: de JupyterHub@Paris-Saclay à myDocker@Paris-Saclay
 :class: hint dropdown
 
-% TODO: Réécrire comme mini historique; voir mails envoyés
+De 2017 à 2024, l'Université Paris-Saclay a mis à disposition de ses
+personnels et étudiants un service d'environnements virtuels
+[JupyterHub@Paris-Saclay](https://jupyterhub.ijclab.in2p3.fr/) donnant
+accès à de nombreux logiciels scientifiques (dont Jupyter). Ce service
+était hébergé et coopéré par le Mésocentre
+[DataCenter@UPSud](https://www.informatique-scientifique.u-psud.fr/)
+de Paris-Saclay et a été utilisé par 8000 personnes de l'enseignement
+supérieur et de la recherche, dont 5000 à Paris-Saclay, avec une
+centaine d'utilisateurs quotidiens.
 
-Le service myDocker@Paris-Saclay est né de la convergence entre les
-services 
+En parallèle, CentraleSupélec avait développé et déployé en 2019 un
+service similaire, myDocker, avec un accent mis sur la
+personnalisation des environnement, la mise à disposition de
+ressources plus lourdes (GPU), la scalabilité et la maîtrise de
+l'empreinte écologique, pour des enseignements d'intelligence
+artificielle, de développement informatique, de simulation numérique,
+de modélisation, etc.
 
-myDocker, originellement développé par et pour Centrale Supélec, est
-de nature similaire au service JupyterHub@Paris-Saclay. En 2024, les
-deux équipes ont travaillé à leur
-convergence. myDocker@CentraleSupelec remplace maintenant
-JupyterHub@Paris-Saclay, avec une migration essentiellement
-transparente pour les utilisateurs. Il apporte une plus grande
-scalabilité (nombre d'utilisateurs simultanés), la possibilité pour
-les enseignants de construire leur propres environnements, et une
-empreinte écologique réduite.
+Entre novembre 2024 et janvier 2025, et avec le soutien financier du
+CMA SaclAI-School, les deux équipes ont opéré une convergence entre
+les deux services, avec une montée en gamme de myDocker pour couvrir
+les usages en cours à Paris-Saclay et le déploiement de
+myDocker@Paris-Saclay qui prend le relais de JupyterHub@Paris-Saclay.
+
+Pour faciliter la migration, un environnement logiciel strictement
+identique à celui de JupyterHub@Paris-Saclay est disponible et les
+données ont été transférées automatiquement. La migration a été
+perturbée et retardée par la cyberattaque donnant lieu à deux étapes:
+- Fin octobre 2024: migration des données pour les utilisateurs avec
+  un compte Adonis @universite-paris-saclay.fr
+- Première semaine de janvier 2025: migration des données pour les
+  autres utilisateurs.
+
+Au cas où des utilisateurs aient utilisé les deux services pendant
+leur cohabitation, si un fichier existait sur les deux services, la
+migration a mis sur myDocker@Paris-Saclay la version la plus récente.
+
+:::
+
+:::{admonition} myDocker@CentraleSupelec et myDocker@Paris-Saclay
+:class: hint dropdown
+
+Le service
+[myDocker@CentraleSupelec](https://mydocker.centralesupelec.fr/) est
+maintenu en parallèle de myDocker@Paris-Saclay. Il est hébergé sur des
+serveurs souverains loués à la demande auprès d'OVH. Il est destiné en
+priorité aux étudiants et personnels de CentraleSupelec. À titre
+expérimental, et en attendant la définition d'un modèle économique
+adéquat, un accès peut être donné au cas par cas via eCampus pour des
+usages lourds (notamment accès GPU). Du fait du modèle par location,
+il est nécessaire de planifier les sessions.
 
 :::
 
 :::{admonition} Remerciements
 :class: hint dropdown
 
-Ce service est copiloté par la Faculté des Sciences et Centrale
-Supélec, opéré par CentraleSupélec, codévelopé par CentraleSupeléc et Illuin
-cofinancé par le CMA
-[SaclAI-School](https://www.dataia.eu/saclai-school) et hébergé par le
-mésocentre
-[DataCenter@UPSud](https://www.informatique-scientifique.u-psud.fr/").
+Le service myDocker@Paris-Saclay est copiloté par la Faculté des
+Sciences et Centrale Supélec, opéré par CentraleSupélec, codévelopé
+par la [DISI](https://mycs.centralesupelec.fr/fr/support-DISI) de
+CentraleSupelec et [Illuin](https://www.illuin.tech/), cofinancé par
+le CMA [SaclAI-School](https://www.dataia.eu/saclai-school) et hébergé
+par le mésocentre
+[DataCenter@UPSud](https://www.informatique-scientifique.u-psud.fr/).
 
 :::
 
 
-## Contacts (TODO)
+## Contact et support technique
 
-## Résolution de problèmes (TODO)
+En attendant un service de support plus formalisé, en cas de panne du
+service, ou pour de l'aide à l'organisation de cours utilisant
+myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
+(prenom.nom@universite-paris-saclay.fr).
 
-## Documentation
+## Limitations connues et résolution de problèmes
 
-- [ ] Comment créer son propre environnement
-- [ ] Comment inclure des données dans l'environnement
+- Lorsque que le démarrage d'un environnement mets du temps ou échoue,
+  très peu de retour est donné à l'utilisateur, rendant le
+  diagnostique difficile. Cela sera progressivement amélioré dans les
+  semaines qui viennent.
 
-## Autres services
+- Le temps de démarrage d'un environnement est souvent plus long qu'il
+  ne devrait. Cela apparaît notamment lorsque l'environnement n'a été
+  utilisé par personne depuis le week-end précédent et nécessite donc
+  un retéléchargement de l'image. Normalement on peut contourner cela
+  en rechargeant la page et redemandant un environnement et cela fini
+  par passer au bout de quelques essais. Ce problème est en cours
+  d'analyse.
 
-JupyterHub, SSPCloud, no
+Suite à venir
+
+## Documentation (à venir)
+
+- [Documentation de myDocker](https://centralesupelec.github.io/mydocker/)
+- Comment organiser un cours
+- Comment créer son propre environnement
+- Comment inclure des documents pédagogiques dans l'environnement
+- Comment inclure des données dans l'environnement
+
+## Autres services (à venir)
+
+JupyterHub, SSPCloud, CoCalc, nuovos, ...
