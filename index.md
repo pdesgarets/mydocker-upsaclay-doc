@@ -21,10 +21,10 @@ tout usage intensif.
 ## Accès aux environnements
 
 Les items ci-dessous vous donne accès à quelques environnements
-génériques. Si vous êtes enseignant.e, vous pouvez créer vos propres
-environnements (documentation à venir), voire proposer qu'ils soient
-ajoutés ici. De nombreux autres environnements ont été créés par des
-enseignantes et enseignants pour toutes sortes de besoin.
+génériques. Si vous êtes enseignante ou enseignant, vous pouvez créer
+vos propres environnements (documentation à venir), voire proposer
+qu'ils soient ajoutés ici. De nombreux autres environnements ont été
+créés par des collègues pour toutes sortes de besoin.
 
 Votre [page d'accueil de
 myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
@@ -48,6 +48,7 @@ vieillissantes. D'autre part il peut être long à charger du fait de sa
 taille. **Sauf besoin spécifique, nous recommandons l'usage d'un des
 environnements plus spécialisés.** :::
 
+:::
 
 :::{admonition} [JupyterLab et Python](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
 :class: dropdown
