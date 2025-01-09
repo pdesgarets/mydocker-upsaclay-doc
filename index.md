@@ -9,8 +9,8 @@ données, etc.
 Ce service est ouvert aux étudiants et personnels de l'Université
 Paris-Saclay. À titre expérimental, il est ouvert plus généralement
 aux établissements de la fédération d'identité «Recherche et
-Enseignement Supérieur» de Renater); nous contacter avant tout usage
-intensif.
+Enseignement Supérieur» de Renater); nous [contacter](contact) avant
+tout usage intensif.
 
 % Les activités ci-dessous donnent quelques exemples d'environnements
 % disponibles sur myDocker. Si vous souhaitez obtenir de l'aide sur
@@ -220,7 +220,7 @@ par le mésocentre
 
 :::
 
-
+(contact)=
 ## Contact et support technique
 
 En attendant un service de support plus formalisé, en cas de panne du
