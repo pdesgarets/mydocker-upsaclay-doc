@@ -24,7 +24,7 @@ Les items ci-dessous vous donne accès à quelques environnements
 génériques. Si vous êtes enseignant.e, vous pouvez créer vos propres
 environnements (documentation à venir), voire proposer qu'ils soient
 ajoutés ici. De nombreux autres environnements ont été créés par des
-enseignant.es pour toutes sortes de besoin.
+enseignantes et enseignants pour toutes sortes de besoin.
 
 Votre [page d'accueil de
 myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
@@ -43,11 +43,10 @@ sur l'ancien service JupyterHub@Paris-Saclay et a vocation à faciliter
 la transition.
 
 Limitation: cet environnement n'a été mis à jour que à la marge depuis
-septembre 2023. Les versions des logiciels installés y sont donc un
-peu vieillissante. D'autre part il peut être long à charger du fait de
-sa taille. **Sauf besoin spécifique, nous recommandons l'usage d'un
-des environnements plus spécialisés.**
-:::
+septembre 2023. Les versions des logiciels installés y sont donc
+vieillissantes. D'autre part il peut être long à charger du fait de sa
+taille. **Sauf besoin spécifique, nous recommandons l'usage d'un des
+environnements plus spécialisés.** :::
 
 
 :::{admonition} [JupyterLab et Python](https://mydocker.universite-paris-saclay.fr/shell/join/IvvgFOBBFzGLwuGJeFSb)
@@ -55,9 +54,10 @@ des environnements plus spécialisés.**
 
 - Interface: JupyterLab en Français
 - Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours: [«Introduction à la programmation avec Python et Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/), ...
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/21/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab-research.centralesupelec.fr/IntroductionProgrammationPython/introductionprogrammationpython.pages.centralesupelec.fr/)
 
 Cet environnement est conçu pour des usages simple de Python,
 notamment pour de l'initiation à la programmation et au calcul.
@@ -94,10 +94,10 @@ de la communauté Jupyter.
 :::
 
 
-:::{admonition} JupyterLab et C++ (https://mydocker.universite-paris-saclay.fr/shell/join/pQlQsEaZSPJMBsBtbxOD)
+:::{admonition} [JupyterLab et C++](https://mydocker.universite-paris-saclay.fr/shell/join/pQlQsEaZSPJMBsBtbxOD)
 :class: dropdown
 
-- Interface: JupyterLab en Français
+- Interface: JupyterLab, en Français
 - Logiciels: compilateurs (gcc, clang) et interpréteur (cling) C++, Travo, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours:
@@ -106,6 +106,8 @@ de la communauté Jupyter.
   - «Algorithmes et Structures de Données», L1 Math-Info, S2, Faculté des Sciences d'Orsay
   - «Info 1», Polytech
   - ...
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/16/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/Info111/ComputerLab/-/tree/master/binder)
 
 :::
 
@@ -113,15 +115,16 @@ de la communauté Jupyter.
 :::{admonition} [JupyterLab et SageMath](https://mydocker.universite-paris-saclay.fr/shell/join/gkctIyHvdZkofetGeMju)
 :class: dropdown
 
-- Interface: JupyterLab en Français
+- Interface: JupyterLab, en Français
 - Logiciels: SageMath, Travo
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
-- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/20/edit) (accès restreint)
+- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours:
   - «Option C: Algèbre et Calcul Formel», Agrégation de Mathématique, Faculté des Sciences d'Orsay
   - «Combinatoire et Calcul algébrique», M1 MPRI, Faculté des Sciences d'Orsay
   - «Projet Math-Info», LDD1 Math-Info, S2, Faculté des Sciences d'Orsay
   - ...
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/20/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab-research.centralesupelec.fr/M2MathAgregation/ComputerLab/-/tree/main/binder)
 
 :::
 
@@ -242,6 +245,9 @@ myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
   en rechargeant la page et redemandant un environnement et cela fini
   par passer au bout de quelques essais. Ce problème est en cours
   d'analyse.
+
+- Le déploiement actuel ne permet pas encore la collaboration temps
+  réel entre plusieurs utilisateurs dans le même environnement.
 
 Suite à venir
 
