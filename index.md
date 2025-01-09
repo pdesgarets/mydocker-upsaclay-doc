@@ -46,7 +46,7 @@ Limitation: cet environnement n'a été mis à jour que à la marge depuis
 septembre 2023. Les versions des logiciels installés y sont donc
 vieillissantes. D'autre part il peut être long à charger du fait de sa
 taille. **Sauf besoin spécifique, nous recommandons l'usage d'un des
-environnements plus spécialisés.** :::
+environnements plus spécialisés.**
 
 :::
 
