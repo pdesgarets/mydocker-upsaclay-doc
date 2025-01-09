@@ -249,8 +249,15 @@ Suite à venir
 
 - [Documentation de myDocker](https://centralesupelec.github.io/mydocker/)
 - Comment organiser un cours
+- Comment donner accès via eCampus (récupérer copie d'écran de Charlène)
 - Comment créer son propre environnement
 - Comment inclure des documents pédagogiques dans l'environnement
+  - Uploader des docs ou archive (avec jupyterlab-archive) à la main
+  - nbgitpuller
+  - travo
+- Comment rendre des devoirs
+  - à la main éventuellement avec jupyterlab-archive
+  - travo
 - Comment inclure des données dans l'environnement
 
 ## Autres services (à venir)
