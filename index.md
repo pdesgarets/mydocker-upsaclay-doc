@@ -31,7 +31,7 @@ myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
 accès à tous les environnements que vous avez déjà utilisé.
 
 
-:::{admonition} [Clone de JupyterHub@Paris-Saclay](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
+:::{admonition} [Environnement clone de celui de JupyterHub@Paris-Saclay](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
 :class: dropdown
 
 - Logiciels: Python et ses bibliothèques classiques, SageMath, C++, R, ...
@@ -54,7 +54,7 @@ environnements plus spécialisés.**
 :class: dropdown
 
 - Interface: JupyterLab en Français
-- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, ...
+- Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, conda, pip, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction, agent conversationnel
 - Cours: [«Introduction à la programmation avec Python et Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/), ...
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/21/edit) (accès restreint)
@@ -65,12 +65,11 @@ notamment pour de l'initiation à la programmation et au calcul.
 
 :::
 
-
-:::{admonition} [JupyterLab, Python et bibliothèques scientifiques](https://mydocker.universite-paris-saclay.fr/shell/join/adNzzJUzLSjBjmwQohnD) (à venir)
+:::{admonition} [JupyterLab, Python et bibliothèques scientifiques](https://mydocker.universite-paris-saclay.fr/shell/join/adNzzJUzLSjBjmwQohnD)
 :class: dropdown
 
 - Interface: JupyterLab
-- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, Scikit-learn, ...
+- Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, conda, pip, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/34/edit) (accès restreint)
 
@@ -81,11 +80,11 @@ de la communauté Jupyter.
 :::
 
 
-:::{admonition} JupyterLab et pyTorch (à venir)
+:::{admonition} [JupyterLab et PyTorch pour l'apprentissage profond](https://mydocker.universite-paris-saclay.fr/shell/join/PQCQGTeqRfsuQaTHOmmd)
 :class: dropdown
 
 - Interface: JupyterLab
-- Logiciels: Python, Numpy, Scipy, MatPlotLib, Pandas, Scikit-learn, pyTorch, ...
+- Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, PyTorch, conda, pip, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 
 Cet environnement est basé sur l'image
