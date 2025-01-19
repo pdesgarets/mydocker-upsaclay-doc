@@ -59,6 +59,7 @@ environnements plus spécialisés.**
 - Cours: [«Introduction à la programmation avec Python et Jupyter»](https://introductionprogrammationpython.pages.centralesupelec.fr/), ...
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/21/edit) (accès restreint)
 - [Configuration de l'image](https://gitlab-research.centralesupelec.fr/IntroductionProgrammationPython/introductionprogrammationpython.pages.centralesupelec.fr/)
+- Mainteneur: Nicolas M. Thiéry
 
 Cet environnement est conçu pour des usages simple de Python,
 notamment pour de l'initiation à la programmation et au calcul.
@@ -72,6 +73,7 @@ notamment pour de l'initiation à la programmation et au calcul.
 - Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, conda, pip, ...
 - Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/34/edit) (accès restreint)
+- Mainteneur: Nicolas M. Thiéry
 
 Cet environnement est basé sur l'image
 [jupyter-scipy-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
@@ -106,6 +108,7 @@ de la communauté Jupyter.
   - «Algorithmes et Structures de Données», L1 Math-Info, S2, Faculté des Sciences d'Orsay
   - «Info 1», Polytech
   - ...
+- Mainteneur: Nicolas M. Thiéry
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/16/edit) (accès restreint)
 - [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/Info111/ComputerLab/-/tree/master/binder)
 
@@ -123,8 +126,9 @@ de la communauté Jupyter.
   - «Combinatoire et Calcul algébrique», M1 MPRI, Faculté des Sciences d'Orsay
   - «Projet Math-Info», LDD1 Math-Info, S2, Faculté des Sciences d'Orsay
   - ...
+- Mainteneur: Nicolas M. Thiéry
 - [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/20/edit) (accès restreint)
-- [Configuration de l'image](https://gitlab-research.centralesupelec.fr/M2MathAgregation/ComputerLab/-/tree/main/binder)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/M2MathAgregation/ComputerLab) (accès temporairement restreint au «campus de Paris-Saclay»)
 
 :::
 
