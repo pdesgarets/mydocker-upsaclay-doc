@@ -237,6 +237,13 @@ myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
 
 ## Limitations connues et résolution de problèmes
 
+- Symptôme: Auprès l'étape d'authentification, myDocker affiche
+  «impossible de s'authentifier»:  
+  Vérifier que l'ordinateur d'où l'on accède à myDocker est bien à
+  l'heure. Un décalage de plus de quelques minutes bloque
+  l'authentification pour des questions de sécurité. Une évolution de
+  mydocker est prévue pour avoir un message clair dans ce cas.
+
 - Lorsque que le démarrage d'un environnement mets du temps ou échoue,
   très peu de retour est donné à l'utilisateur, rendant le
   diagnostique difficile. Cela sera progressivement amélioré dans les
