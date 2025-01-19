@@ -264,6 +264,25 @@ Suite à venir
 
 ## Documentation (à venir)
 
+### Concepts
+
+- image
+- environnement (cours)
+- rôles
+- persistance et dossier personnel
+
+### Rôles: élève, professeur
+
+myDocker ne fait pas de différence entre enseignant et étudiant: une
+fois dans le conteneur, on est sur une machine linux générique avec un
+compte local; comme par exemple en salle de TP. La seule chose est
+qu'au niveau de l'interface de myDocker les utilisateurs avec le rôle
+de Professeur ont accès à un onglet supplémentaire pour définir de
+nouveaux environnements. On peut avoir le rôle de Professeur parce que
+l'établissement auprès du quel on s'est authentifié a indiqué que l'on
+était personnel de l'établissement et non étudiant, ou parce qu'un
+admin a donné le rôle de Professeur.
+
 - [Documentation de myDocker](https://centralesupelec.github.io/mydocker/)
 - Comment organiser un cours
 - Comment donner accès via eCampus (récupérer copie d'écran de Charlène)
@@ -277,6 +296,7 @@ Suite à venir
   - travo
 - Comment inclure des données dans l'environnement
 
-## Autres services (à venir)
+## Alternatives (à venir)
 
-JupyterHub, SSPCloud, CoCalc, nuovos, ...
+JupyterHub, SSPCloud, CoCalc, https://nuvolos.cloud/, ...
+
