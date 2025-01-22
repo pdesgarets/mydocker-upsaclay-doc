@@ -31,7 +31,7 @@ myDocker](https://mydocker.universite-paris-saclay.fr/) vous donne
 accès à tous les environnements que vous avez déjà utilisé.
 
 
-:::{admonition} [Environnement clone de celui de JupyterHub@Paris-Saclay](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
+:::{admonition} Environnement clone de celui de JupyterHub@Paris-Saclay [Démarrer l'environnement](https://mydocker.universite-paris-saclay.fr/shell/join/qWsmLepfAkaFqYIQBjKL)
 :class: dropdown
 
 - Logiciels: Python et ses bibliothèques classiques, SageMath, C++, R, ...
@@ -43,7 +43,7 @@ sur l'ancien service JupyterHub@Paris-Saclay et a vocation à faciliter
 la transition.
 
 Limitation: cet environnement n'a été mis à jour que à la marge depuis
-septembre 2023. Les versions des logiciels installés y sont donc
+septembre 2023 et restera en l'état. Les versions des logiciels installés y sont donc
 vieillissantes. D'autre part il peut être long à charger du fait de sa
 taille. **Sauf besoin spécifique, nous recommandons l'usage d'un des
 environnements plus spécialisés.**
@@ -87,11 +87,16 @@ de la communauté Jupyter.
 
 - Interface: JupyterLab
 - Logiciels: Python, Numpy, SciPy, MatPlotLib, Pandas, scikit-learn, PyTorch, conda, pip, ...
-- Ressources: dossier personnel persistent global, 2 CPU, 4Go RAM, extinction après 20 minutes sans interaction
+- Ressources: dossier personnel persistent global, 4Go RAM, extinction après 20 minutes sans interaction
+- Mainteneur: Nicolas M. Thiéry
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/35/edit) (accès restreint)
 
 Cet environnement est basé sur l'image
 [jupyter/pytorch-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-notebook)
 de la communauté Jupyter.
+
+Pour des raisons techniques, il n'y a actuellement pas de limites sur
+l'usage CPU. Merci de ne pas en abuser!
 
 :::
 
@@ -237,6 +242,8 @@ myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
 
 ## Limitations connues et résolution de problèmes
 
+### Authentification
+
 - Symptôme: Auprès l'étape d'authentification, myDocker affiche
   «impossible de s'authentifier»:  
   Vérifier que l'ordinateur d'où l'on accède à myDocker est bien à
@@ -244,10 +251,12 @@ myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
   l'authentification pour des questions de sécurité. Une évolution de
   mydocker est prévue pour avoir un message clair dans ce cas.
 
+### Lancement d'un environnement
+
 - Lorsque que le démarrage d'un environnement mets du temps ou échoue,
-  très peu de retour est donné à l'utilisateur, rendant le
-  diagnostique difficile. Cela sera progressivement amélioré dans les
-  semaines qui viennent.
+  très peu de retour est donné à l'utilisateur, rendant le diagnostic
+  difficile. Cela sera progressivement amélioré dans les semaines qui
+  viennent.
 
 - Le temps de démarrage d'un environnement est souvent plus long qu'il
   ne devrait. Cela apparaît notamment lorsque l'environnement n'a été
@@ -256,6 +265,17 @@ myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
   en rechargeant la page et redemandant un environnement et cela fini
   par passer au bout de quelques essais. Ce problème est en cours
   d'analyse.
+
+### Usage
+
+- **Symptôme:** erreur Keybord interrupt et plantage de
+  l'environnement lors d'un calcul nécessitant du parallélisme massif
+  (par exemple apprentissage avec scikit-learn ou pytorch)  
+  **Analyse:** sur l'instance mydocker de Paris-Saclay basée sur
+  Docker-Swarm, lorsque la limitation en nombre de CPU utilisé est
+  atteinte, le conteneur entier est tué avec un signal SIGTERM, plutôt
+  que de continuer en respectant la limite.  
+  **Contournement:** ne pas mettre de limite de CPU à l'environnement.
 
 - Le déploiement actuel ne permet pas encore la collaboration temps
   réel entre plusieurs utilisateurs dans le même environnement.
