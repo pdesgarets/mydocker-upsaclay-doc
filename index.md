@@ -137,6 +137,24 @@ l'usage CPU. Merci de ne pas en abuser!
 
 :::
 
+:::{admonition} 🚧[JupyterLab et Julia](https://mydocker.universite-paris-saclay.fr/shell/join/ilpJoKzaJZVisfPVJLcL)🚧
+:class: dropdown
+
+- Interface: JupyterLab, en Français
+- Logiciels: Julia with packages SymPy, Plots, Statistics, DataFrames,
+  DSP, Latexify
+- Ressources: dossier personnel persistent et dossier personnel global (dans shared/), 2 CPU, 4Go RAM, extinction après 30 minutes sans interaction
+- Cours: ???
+- Mainteneur: Nicolas M. Thiéry, Bastien Berret
+- [Configuration de l'environnement](https://mydocker.universite-paris-saclay.fr/admin/courses/8/edit) (accès restreint)
+- [Configuration de l'image](https://gitlab.dsi.universite-paris-saclay.fr/jupyterhub-paris-saclay/images-alternatives/julia) (accès temporairement restreint au «campus de Paris-Saclay»)
+
+Cet environnement est basé sur l'image
+[jupyter/pytorch-notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#julia-notebook)
+de la communauté Jupyter.
+
+:::
+
 ## À propos du service
 
 :::{admonition} Fonctionnalités essentielles
