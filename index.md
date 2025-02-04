@@ -173,7 +173,7 @@ de la communauté Jupyter.
   Pour des besoins plus lourds, notamment de GPU pour des applications
   en IA, il est possible au cas par cas d'utiliser l'[instance
   myDocker de Centrale-Supélec](https://mydocker.centralesupelec.fr/),
-  dont les serveurs sont loués à la demande. Nous contacter.
+  dont les serveurs sont loués à la demande. Nous [contacter](contact).
 - **Persistence des données**.
 - **Hébergement souverain**.
 - **IA**: intégration d'un agent conversationnel souverain (Aristote).
@@ -253,10 +253,9 @@ par le mésocentre
 (contact)=
 ## Contact et support technique
 
-En attendant un service de support plus formalisé, en cas de panne du
-service, ou pour de l'aide à l'organisation de cours utilisant
-myDocker, vous pouvez contacter le copilote du service, Nicolas Thiéry
-(prenom.nom@universite-paris-saclay.fr).
+En cas de panne du service, ou pour de l'aide à l'organisation de
+cours utilisant myDocker, vous pouvez contacter le support technique:
+[mydocker-upsaclay@listes.centralesupelec.fr](mailto:mydocker-upsaclay@listes.centralesupelec.fr).
 
 ## Limitations connues et résolution de problèmes
 
